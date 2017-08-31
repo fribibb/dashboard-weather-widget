@@ -1,0 +1,38 @@
+// Source styles for Dashboard Weather Widget
+
+
+
+$grey: #72777c;   // WordPress text grey
+
+
+
+#dww {
+  .inside {
+    .dww- {
+
+      &icon {
+        margin-right: 1em;
+        float: left;
+        display: inline-block;
+      }
+      
+      &location {
+        color: $grey;
+        margin-bottom: 0.5em;
+      }
+
+      &temp {
+        font-size: 250%;
+        font-weight: 300;
+        margin: 0;
+        line-height: 1;
+        color: $grey;
+      }
+
+      &desc {
+        margin-top: 0.4em;
+      }
+
+    } // .ww-
+  } // .inside
+} // #ww
