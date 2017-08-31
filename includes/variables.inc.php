@@ -12,7 +12,8 @@ if ( !defined('DWW_LOCATION_ID') )
   define( 'DWW_LOCATION_ID', '2208303' );                        // http://bulk.openweathermap.org/sample/city.list.json.gz
 
 if ( !defined('DWW_API_KEY') )
-  define( 'DWW_API_KEY', '4349193c81834f3d66963837175d6cbc' );     // http://openweathermap.org/appid
+  // This is a terrible way to store an API key - see readme file
+  define( 'DWW_API_KEY', '4349193c81834f3d66963837175d6cbc' );   // http://openweathermap.org/appid
 
 if ( !defined('DWW_UNITS') )
   define( 'DWW_UNITS', 'metric' );                               // Default: kelvin, Metric: Celsius, imperial: Fahrenheit.

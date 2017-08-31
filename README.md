@@ -15,11 +15,9 @@ Once activated, you will see this has been added to your dashboard page.
 
 The following can be optionally set within your wp-config.php file:
 
-`define( 'WW_LOCATION_ID', '2208303' );`
+`define( 'DWW_LOCATION_ID', '2208303' );`
 
-`define( 'WW_API_KEY', 'ABC123' );`
-
-`define( 'WW_UNITS', 'metric' );`
+`define( 'DWW_UNITS', 'metric' );`
 
 Details at:  http://openweathermap.org/appid
 
@@ -32,7 +30,8 @@ Installing "Dashboard Weather Widget" can be done either by searching for "Dashb
 1. Download the plugin via GitHub.
 2. Upload the ZIP file through the "Plugins > Add New > Upload" screen in your WordPress dashboard.
 3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Visit the settings screen and configure, as desired.
+4. Create an API key at http://openweathermap.org/
+5. Add it to your wp-config.php file. Like so: `define( 'DWW_API_KEY', 'ABC123' );`
 
 
 
@@ -48,6 +47,7 @@ Installing "Dashboard Weather Widget" can be done either by searching for "Dashb
 * Allow for option to set via web interface rather than just constants
 * ...maybe base temp units and location off WP Timezone city/location setting?
 * Improve output if error fetching new data
+* Worth mentioning that this is a terrible way to store an API key - it should ideally be in a $\_SERVER variable - this was just needed for a demo and will be invalid afterwards.
 
 
 
@@ -60,8 +60,8 @@ Installing "Dashboard Weather Widget" can be done either by searching for "Dashb
 
 ## Credits
 
-* Dripicons - by [Amit Jakhu](http://www.amitjakhu.com).
-* Warning icon - from [Font Awesome](http://fontawesome.io/).
+* Dripicons weather icons by [Amit Jakhu](http://www.amitjakhu.com).
+* Warning icon from [Font Awesome](http://fontawesome.io/).
 
 
 
