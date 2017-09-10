@@ -25,6 +25,12 @@
 		"oAP": "\/dashboard-weather-widget.php",
 		"oF": 0
 		},
+	"\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Icon\r",
+		"oF": 0
+		},
 	"\/icons\/0.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -221,22 +227,16 @@
 		"oAP": "\/includes\/functions.inc.php",
 		"oF": 0
 		},
-	"\/includes\/includes.inc.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/includes.inc.php",
-		"oF": 0
-		},
 	"\/includes\/variables.inc.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/includes\/variables.inc.php",
 		"oF": 0
 		},
-	"\/index.php": {
+	"\/languages\/.pot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.php",
+		"oAP": "\/languages\/.pot",
 		"oF": 0
 		},
 	"\/LICENSE": {
@@ -289,9 +289,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 525864032,
-	"displayValue": "___dashboard-weather-widget",
+	"displayValue": "dashboard-weather-widget",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "brackets_gray",
+	"lastBuiltDate": 526739008
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

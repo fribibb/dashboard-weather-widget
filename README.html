@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="dashboardweatherwidget">Dashboard Weather Widget</h1>
+
+<p>By <a href="https://timhurley.net">Tim Hurley</a></p>
+
+<h2 id="description">Description</h2>
+
+<p>A demo plugin to show how to create a simple admin dashboard widget.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Once activated, you will see this has been added to your dashboard page.</p>
+
+<p>The following can be optionally set within your wp-config.php file:</p>
+
+<p><code>define( 'DWW_LOCATION_ID', '2208303' );</code></p>
+
+<p><code>define( 'DWW_UNITS', 'metric' );</code></p>
+
+<p>Details at: http://openweathermap.org/appid</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Installing &#8220;Dashboard Weather Widget&#8221; can be done either by searching for &#8220;Dashboard Weather Widget&#8221; via the &#8220;Plugins &gt; Add New&#8221; screen in your WordPress dashboard, or by using the following steps:</p>
+
+<ol>
+<li>Download the plugin via GitHub.</li>
+<li>Upload the ZIP file through the &#8220;Plugins &gt; Add New &gt; Upload&#8221; screen in your WordPress dashboard.</li>
+<li>Activate the plugin through the &#8216;Plugins&#8217; menu in WordPress</li>
+<li>Create an API key at http://openweathermap.org/</li>
+<li>Add it to your wp-config.php file. Like so: <code>define( 'DWW_API_KEY', 'ABC123' );</code></li>
+</ol>
+
+<h2 id="changelog">Changelog</h2>
+
+<p>= 1.0.0 =
+* Initial release</p>
+
+<h2 id="todo">To Do</h2>
+
+<ul>
+<li>Allow for option to set via web interface rather than just constants</li>
+<li>&#8230;maybe base temp units and location off WP Timezone city/location setting?</li>
+<li>Improve output if error fetching new data</li>
+<li>Worth mentioning that this is a terrible way to store an API key - it should ideally be in a $_SERVER variable - this was just needed for a demo and will be invalid afterwards.</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<ul>
+<li>GPLv3 or later</li>
+<li>http://www.gnu.org/licenses/gpl&#8211;3.0.html</li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<ul>
+<li>Dripicons weather icons by <a href="http://www.amitjakhu.com">Amit Jakhu</a>.</li>
+<li>Warning icon from <a href="http://fontawesome.io/">Font Awesome</a>.</li>
+</ul>
+
+<h2 id="mythoughtsonthetest">My thoughts on the test</h2>
+
+<p>I was plesantly surprised by this test! I have seen some relevant coding tests, but thankfully this was not one! :)</p>
+
+<p>It covers API usage, WordPress intergration and scalability considerations with the use of the WP Transients API.</p>
+
+</body>
+</html>
