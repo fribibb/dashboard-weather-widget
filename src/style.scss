@@ -15,7 +15,7 @@ $grey: #72777c;   // WordPress text grey
         float: left;
         display: inline-block;
       }
-      
+
       &location {
         color: $grey;
         margin-bottom: 0.5em;
@@ -31,6 +31,10 @@ $grey: #72777c;   // WordPress text grey
 
       &desc {
         margin-top: 0.4em;
+      }
+
+      &error {
+        //;
       }
 
     } // .ww-

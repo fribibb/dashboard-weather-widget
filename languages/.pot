@@ -1,0 +1,39 @@
+# Copyright (C) 2017 Dashboard Weather Widget
+# This file is distributed under the same license as the Dashboard Weather Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dashboard Weather Widget 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/dashboard-weather-widget\n"
+"POT-Creation-Date: 2017-09-10 12:02:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/functions.inc.php:120
+msgid "API key not set in"
+msgstr ""
+
+#. #-#-#-#-#  .pot (Dashboard Weather Widget 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/functions.inc.php:136
+msgid "Dashboard Weather Widget"
+msgstr ""
+
+#: includes/functions.inc.php:137
+msgid "requires you must set an API key in"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A demo plugin to show how to create a simple admin dashboard widget."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tim Hurley"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://timhurley.net/"
+msgstr ""
