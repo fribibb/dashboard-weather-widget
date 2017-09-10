@@ -15,7 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 // Constants to make life with include files easier.
-define( 'DWW_PLUGIN_FILE', __FILE__ );                                          // /full/path/to/wp-content/plugins/plugin-folder/plugin-file.php .
 define( 'DWW_PLUGIN_PATH', plugin_dir_path( DWW_PLUGIN_FILE ) );                // /full/path/to/wp-content/plugins/plugin-folder/ .
 define( 'DWW_PLUGIN_URL' , plugin_dir_url( DWW_PLUGIN_FILE ) );                 // http://example.com/wp-content/plugins/drafts-for-friends/ .
 define( 'DWW_PLUGIN_DIR',  basename( dirname( DWW_PLUGIN_FILE ) ) );            // /full/path/to/wp-content/plugins/plugin-folder/plugin-file.php .
