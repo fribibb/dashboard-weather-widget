@@ -47,7 +47,7 @@ function dww_dashboard_styles() {
 	// Load only on Dashboard page.
 	$screen = get_current_screen();
 	if ( 'dashboard' === $screen->id ) {
-		wp_enqueue_style( 'dww_dashboard_css', plugins_url( 'css/style.css', __FILE__ ) );
+		wp_enqueue_style( 'dww_dashboard_css', plugins_url( 'css/style.css', DWW_PLUGIN_FILE ) );
 	}
 }
 
