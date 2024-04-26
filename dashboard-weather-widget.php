@@ -17,8 +17,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-// Need this out here.
-define( 'DWW_PLUGIN_FILE', __FILE__ );                                          // /full/path/to/wp-content/plugins/plugin-folder/plugin-file.php .
+// Filesystem path to this file, eg: `/full/path/to/wp-content/plugins/plugin-folder/plugin-file.php`.
+define( 'DWW_PLUGIN_FILE', __FILE__ );
 
 // Includes.
 require_once 'includes/variables.php';
