@@ -21,8 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'DWW_PLUGIN_FILE', __FILE__ );                                          // /full/path/to/wp-content/plugins/plugin-folder/plugin-file.php .
 
 // Includes.
-require_once( 'includes/variables.inc.php' );
-require_once( 'includes/functions.inc.php' );
+require_once 'includes/variables.php';
+require_once 'includes/functions.php';
 
 // Add a widget to the dashboard.
 add_action( 'wp_dashboard_setup', 'dww_add_dashboard_widgets' );
